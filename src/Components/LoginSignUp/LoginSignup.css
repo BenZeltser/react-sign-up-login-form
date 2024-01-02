@@ -3,8 +3,10 @@
     flex-direction: column;
     margin: auto;
     margin-top: 200px;
+    width: 600px;
     background: white;
     padding-bottom: 30px;
+    border-radius: 5px;
 }
 
 .header {
@@ -58,5 +60,38 @@
     outline: none;
     color: rgb(69, 69, 69);
     font-size: 19px;
-    border-radius: 1px;
 }
+
+.forgot-password {
+    
+    padding-left: 72px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.forgot-password span {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: white;
+    background: purple;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 19px;
+    cursor: pointer;
+}
+
